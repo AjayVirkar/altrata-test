@@ -1,9 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import Calendar from './components/Calender';
 import { useState } from 'react';
-
-const date = new Date("2023-02-25");
 
 const App = () => {
   const [date, setDate] = useState(new Date());
